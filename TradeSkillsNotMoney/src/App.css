@@ -1,0 +1,127 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container */
+.container {
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 500px;
+  overflow-y: auto;
+}
+
+/* Headings */
+h1 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+/* Text */
+p {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Buttons */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Input Fields */
+input {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Profile Section */
+.profile-section,
+.skills-section,
+.match-section,
+.notifications,
+.chat-section {
+  margin-top: 15px;
+  background: #eef2f3;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+/* Lists */
+ul {
+  list-style-type: none;
+  padding: 0;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+li {
+  background: #d0e8ff;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Chat Section */
+.chat-box {
+  height: 200px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* Sent & Received Messages */
+.sent {
+  text-align: right;
+  background: #dcf8c6;
+  padding: 8px;
+  border-radius: 10px;
+  margin: 5px;
+  max-width: 70%;
+}
+
+.received {
+  text-align: left;
+  background: #f1f1f1;
+  padding: 8px;
+  border-radius: 10px;
+  margin: 5px;
+  max-width: 70%;
+}
